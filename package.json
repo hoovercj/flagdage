@@ -1,0 +1,23 @@
+{
+  "name": "flagdage",
+  "version": "0.0.1",
+  "description": "Information about flag days for busses in Copenhagen / Information til flagdage for busserne i Storkøbenhavn",
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/hoovercj/flagdage.git"
+  },
+  "homepage": "https://www.github.com/hoovercj/flagdage",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "hoovercj",
+  "license": "MIT",
+  "dependencies": {
+    "moment": "2.22.1",
+    "moment-recur": "1.0.7"
+  },
+  "devDependencies": {
+    "jest": "23.1.0"
+  }
+}
