@@ -10,7 +10,7 @@ npm install flagdage --save
 
 Simply require this package:
 
-```
+```javascript
 const { FlagDag, flagDays, getFlagDay, getNextFlagDay, getPreviousFlagDay } = require(flagdage);
 
 // Use the list of known flag days
@@ -28,4 +28,4 @@ console.log(getNextFlagDay('2018-05-04').name) // output: 'Europadag'
 
 ## Acknowledgements
 
-The core of this was extracted from [this project]() by @JamieMagee which uses a scheduled azure function to check if it is a flag day and tweets it out.
+The core of this was extracted from [this project](https://github.com/JamieMagee/flagdage) by @JamieMagee which uses a scheduled azure function to check if it is a flag day and tweets it out.
